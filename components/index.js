@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var welcomeMessage = document.querySelector('.welcomeMessage');
 
     function toggleVisibility() {
-        welcomeMessage.classList.toggle('hidden');
+        if (welcomeMessage) {
+            welcomeMessage.classList.toggle('hidden');
+        }
     }
 
     let interval = setInterval(toggleVisibility, 1000);
@@ -11,12 +13,19 @@ document.addEventListener('DOMContentLoaded', function () {
         if (interval) {
             clearInterval(interval);
             interval = null;
-            welcomeMessage.classList.remove('hidden');
+            if (welcomeMessage) {
+                welcomeMessage.classList.remove('hidden');
+            }
         } else {
-            welcomeMessage.classList.add('hidden');
-            interval = setInterval(toggleVisibility, 1000);
+            if (welcomeMessage) {
+                welcomeMessage.classList.add('hidden');
+                interval = setInterval(toggleVisibility, 1000);
+            }
         }
     }, 10000);
+
+
+
 
     document.querySelectorAll('nav ul li a:not(:only-child)').forEach(function (el) {
         el.addEventListener('click', function (e) {
