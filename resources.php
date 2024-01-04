@@ -51,7 +51,7 @@
                     <li>The use of Learning Resources facilities is normally limited to use for the educational and
                         other purposes of the College.</li>
                     <li>All individuals wishing to become members of the Learning Resources must comply with the <a
-                            href="registrationprocedures.php"  class="email-link">registration procedures</a>. These include an undertaking to
+                            href="registrationprocedures.php"  class="external-link">registration procedures</a>. These include an undertaking to
                         abide by Learning Resources rules.</li>
                     <li>Individuals or organizations who are not eligible for membership but have good reason to use the
                         Learning Resources may be admitted, by arrangement, for purposes of study only. Procedures for

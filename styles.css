@@ -291,8 +291,9 @@ main {
 button:hover {
     background-color: #2980b9;
 }
-span.red-text {
+a.external-link {
     color: red;
+    text-decoration: none;
 }
 
 form {
