@@ -24,9 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }, 10000);
 
-
-
-
     document.querySelectorAll('nav ul li a:not(:only-child)').forEach(function (el) {
         el.addEventListener('click', function (e) {
             var dropdown = this.nextElementSibling;
