@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     
-        // Initially open the 'global-leadership' tab when the page loads
         openTab('global-leadership');
         openTab('innovation-technology');
         openTab('communication-media-arts');
