@@ -44,11 +44,14 @@
 
                 <p><strong>Rules</strong></p>
                 <p><strong>A. Access:</strong></p>
+                
+        <section id="registrationprocedures">
+                <h3>Registration Procedures</h3>
                 <ol>
                     <li>The use of Learning Resources facilities is normally limited to use for the educational and
                         other purposes of the College.</li>
                     <li>All individuals wishing to become members of the Learning Resources must comply with the <a
-                            href="#registration-procedures">registration procedures</a>. These include an undertaking to
+                            href="registrationprocedures.php"  class="email-link">registration procedures</a>. These include an undertaking to
                         abide by Learning Resources rules.</li>
                     <li>Individuals or organizations who are not eligible for membership but have good reason to use the
                         Learning Resources may be admitted, by arrangement, for purposes of study only. Procedures for
@@ -61,7 +64,7 @@
                         Users of the Learning Resources are reminded that they must be willing to show ID cards or other
                         identification when requested to do so by College staff.</li>
                 </ol>
-
+        </section>
                 <p><strong>B. Use of Facilities</strong></p>
                 <ol>
                     <li>The Learning Resources is not responsible for loss of, or damage to, the personal belongings of

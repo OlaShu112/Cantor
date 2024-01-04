@@ -70,6 +70,10 @@ main {
     border-radius: 8px; /* Add a slight border radius for a cleaner look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+#registrationprocedures {
+    background-color: #fff; /* Replace #fff with your desired background color for this section */
+    /* Add specific styles for the #registrationprocedures section if needed */
+}
 
 /* Hero section styling */
 .hero {
