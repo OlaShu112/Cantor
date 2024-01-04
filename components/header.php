@@ -1,6 +1,6 @@
 <section class="navigation">
         <div class="brand">
-            <img width="100%" height="100%" src="assets/logo.webp" loading="lazy" alt="Cantor College Logo" class="logo">
+            <img width="100%" height="100%" srcset="assets/logo.webp" loading="lazy" alt="Cantor College Logo" class="logo">
         </div>
     <nav>
         <div class="nav-mobile"><a id="nav-toggle" href="#!" aria-label="Toggle Navigation"><span></span></a></div>

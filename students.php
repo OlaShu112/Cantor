@@ -23,10 +23,10 @@
         </section>
 
     <!-- Academic Information -->
-    <section id="academic-info" class="content-section">
+    <article id="academic-info" class="content-section">
         <div class="container">
             <div class="flex-box">
-                <img width="50%" src="assets/main_2529_image4.webp" alt="Academic Information Image">
+                <img width="50%" height="auto" srcset="assets/main_2529_image4.webp" alt="Academic Information Image">
 
                 <div class="description">
                     <h2>Academic Information</h2>
@@ -45,7 +45,7 @@
     </section>
 
     <!-- Administrative Support -->
-    <section id="admin-support" class="content-section">
+    <article id="admin-support" class="content-section">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -57,16 +57,16 @@
                         <li><a href="#">Student Guide to Regulations</a></li>
                     </ul>
                 </div>
-                <img width="50%" src="assets/admin_service.webp" alt="Academic Information Image">
+                <img width="50%" height="auto" srcset="assets/admin_service.webp" alt="Academic Information Image">
             </div>
         </div>
-    </section>
+</article>
 
     <!-- Student Services -->
-    <section id="student-services" class="content-section">
+    <article id="student-services" class="content-section">
         <div class="container">
             <div class="flex-box">
-                <img width="50%" src="assets/student_service.jpg" alt="Academic Information Image">
+                <img width="50%" height="auto" srcset="assets/student_service.jpg" alt="Academic Information Image">
                 <div class="description">
                     <h2>Student Services</h2>
                     <p>Experience holistic student support at Canton College. The Student Services section is your
@@ -81,10 +81,10 @@
                 </div>
             </div>
         </div>
-    </section>
+</article>
 
     <!-- University Services -->
-    <section id="uni-services" class="content-section">
+    <article id="uni-services" class="content-section">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -99,16 +99,16 @@
                         <li><a href="#">Student Accommodation Services</a></li>
                     </ul>
                 </div>
-                <img width="50%" src="assets/college_service.webp" alt="Academic Information Image">
+                <img width="50%" height="auto" srcset="assets/college_service.webp" alt="Academic Information Image">
             </div>
         </div>
-    </section>
+</article>
 
     <!-- Life at the University -->
-    <section id="life-at-uni" class="content-section">
+    <artcle id="life-at-uni" class="content-section">
         <div class="container">
             <div class="flex-box">
-                <img width="50%" src="assets/life.webp" alt="Academic Information Image">
+                <img width="50%" height="auto" srcset="assets/life.webp" alt="Academic Information Image">
                 <div class="description">
                     <h2>Life at the University</h2>
                     <p>Immerse yourself in the vibrant tapestry of life at Canton College. The Life at the University
@@ -124,10 +124,10 @@
                 </div>
             </div>
         </div>
-    </section>
+</article>
 
     <!-- Communications -->
-    <section id="communications" class="content-section">
+    <article id="communications" class="content-section">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -140,11 +140,11 @@
                         <li><a href="#">Staff Search</a></li>
                         <li><a href="#">A to Z List of Services</a></li>
                     </ul>
-                </div>
-                <img width="50%" src="assets/communication.webp" alt="Academic Information Image">
+                </div>                
+                <img width="50%" srcset="assets/communication.webp" alt="Academic Information Image">                
             </div>
         </div>
-    </section>
+</article>
 
     <?php include 'components/footer.php'; ?>
 

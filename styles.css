@@ -91,6 +91,10 @@ section#registrationprocedures {
     background-color: #0056b3;
     border-color: #0056b3;
 }
+.tab-btn.is-active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
 
 .active {
     border-color: #0056b3;
@@ -104,6 +108,20 @@ section#registrationprocedures {
     color: #fff;
 }
 
+.heading {
+    text-align: center;
+    padding: 40px 0;
+    /* background-color: #3498db; 
+    color: #fff; */
+}
+
+.heading h2 {
+    font-size: 2.5em;
+}
+
+.heading p {
+    font-size: 1.2em;
+}
 .hero h2 {
     font-size: 2.5em;
 }
@@ -361,7 +379,7 @@ input[type="submit"]:hover {
 @keyframes colorChange {
     0%, 100% {
         opacity: 1;
-        color: rgba(255, 255, 255, 1); 
+        color: rgb(36, 192, 219); 
     }
     20%, 80% {
         opacity: 1;
@@ -507,7 +525,7 @@ p {
 }
 
 .carousel-content img {
-    height: 110vh;
+    height: 40rem;
     min-width: 100vw;
     max-width: 100vw;
     object-fit: cover;
@@ -789,3 +807,14 @@ article {
     padding: 10px;
 }
 
+.tab-content {
+	display: none;
+	background-color: #e7e7e7;
+  &.is-active {
+		display: block;
+		}	
+}
+.carousel-wrapper{
+    height:40rem;
+    overflow: hidden;
+}
