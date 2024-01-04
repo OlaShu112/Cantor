@@ -5,23 +5,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Explore academic excellence and innovative programs at Cantor College. Discover our Global Leadership MBA, Bachelor of Innovation in Technology, and Communication and Media Arts programs. Learn about our creative philosophy and how we celebrate uniqueness. Join us to expand your horizons and fuel your imagination.">
-    <!-- <link rel="stylesheet"  href="css/nav.css"> -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     <title>Cantor College</title>
-    <script src="components/index.js" defer></script>
-    <script src="js/carousel.js" defer></script>
+    <script src="components/index.js" defer charset="utf-8"></script>
+    <script src="js/carousel.js" defer charset="utf-8"></script>
 </head>
 
 <body>
     <?php include 'components/header.php'; ?>
-    <section id="home" class="hero">
-        <div class="container">
-            <h2 class="welcomeMessage">Welcome to Cantor College</h2>
+    <section id="welcome" class="hero">
+        <div class="container color-changing-element">
+            <h2 class="welcomeMessage color-changing-element">Welcome to Cantor College</h2>
             <p>Explore our diverse academic excellence and modern facilities</p>
         </div>
     </section>
-    <div class="carousel" data-carousel="1" data-speed="3000">
+    <div id="carousel" data-carousel="1" data-speed="3000">
         <span class="carousel-control-left"></span>
         <span class="carousel-control-right"></span>
         <div class="carousel-content">
@@ -36,13 +35,13 @@
                 alt="image 5" loading="lazy"/>
         </div>
     </div>
-    <section id="home" class="hero">
+    <section id="featured-programs" class="hero animated-element color-changing-element">
         <div class="container">
             <h2>Featured Programs</h2>
             <p>Discover the pinnacle of academic excellence and state-of-the art facilities at Cantor College</p>
         </div>
     </section>
-    <section class="content-sections">
+    <section id="content-sections">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -53,19 +52,18 @@
                 </div>
                 <picture>
                     <source srcset="assets/bsit1.webp" type="image/webp">
-                    <img width="100%" height="100%" src="assets/bsit1.webp" 
-                    alt="Program Image">
+                    <img width="100%" height="100%" src="assets/bsit1.webp" alt="Global Leadership MBA Program Image">
                 </picture>
 
             </div>
         </div>
     </section>
-    <section class="content-sections">
+    <section id="innovation-technology">
         <div class="container">
             <div class="flex-box">
                 <picture>
                 <source srcset="assets/bsit.webp" type="image/webp">
-                <img width="100%" height="100% src="assets/bsit.webp" alt="Program Image">
+                <img width="100%" height="100% src="assets/bsit.webp" alt="Bachelor of Innovation in Technology Program Image">
                 </picture>
                 <div class="description">
                     <h3>Bachelor of Innovation in Technology</h3>
@@ -78,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="content-sections">
+    <section id="media-arts">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -88,14 +86,15 @@
                         program opens doors to a spectrum of creative career opportunities.</span>
                     <a href="#" class="view-details-button">Communicate Effectively</a>
                 </div>
+                <picture>
                 <img width="100%" height="100%" srcset="assets/media1.webp" 
-                    src="assets/media1.webp"
-                    alt="Program Image">
+                    src="assets/media1.webp" alt="Communication and Media Arts Program Image">
+                </picture>  
             </div>
         </div>
     </section>
-    <section id="home" class="hero">
-        <div class="container">
+    <section id="philosophy" class="hero animated-element">
+        <div class="container color-changing-element">
             <h2>Our Philosophy</h2>
         </div>
     </section>

@@ -5,27 +5,27 @@
             <ul class="social-icons">
                 <li>
                     <a href="https://www.facebook.com/cantorcollege" target="_blank">
-                        <img src="assets/facebook.webp" alt="Facebook" width="30" height="30">
+                        <img src="assets/facebook.webp" alt="Facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/cantorcollege" target="_blank">
-                        <img src="assets/instagram.webp" alt="Instagram" width="30" height="30">
+                        <img src="assets/instagram.webp" alt="Instagram">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.twitter.com/cantorcollege" target="_blank">
-                        <img src="assets/twitter.webp" alt="Twitter" width="30" height="30">
+                        <img src="assets/twitter.webp" alt="Twitter">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.tiktok.com/@cantorcollege" target="_blank">
-                        <img src="assets/tiktok.webp" alt="TikTok" width="30" height="30">
+                        <img src="assets/tiktok.webp" alt="TikTok">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.whatsapp.com/@cantorcollege" target="_blank">
-                        <img src="assets/whatsapp.webp" alt="whatsapp" width="30" height="30">
+                        <img src="assets/whatsapp.webp" alt="whatsapp">
                     </a>
                 </li>
                 <!-- Other social icons can be added as needed -->
@@ -39,6 +39,6 @@
             
         </div>
         <div class="container">
-            <p style="color:black;">&copy; 2023 Cantor College. All rights reserved.</p>
+            <p>&copy; 2023 Cantor College. All rights reserved.</p>
         </div>
     </footer>

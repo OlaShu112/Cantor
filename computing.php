@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/table.css">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     <script src="components/index.js"></script>
@@ -52,7 +51,7 @@
                         require 'config.php';
                         $courseSubject = 'Computing';   // This can be changed to the desired course type
                         // Create connection
-                        $conn = new mysqli($servername, $username, $password, $dbname);
+                        $conn = new mysqli($servername, $username, "", $dbname, 3307);
 
                         if ($conn->connect_error) {
                             die("Connection failed: " . $conn->connect_error);
@@ -97,6 +96,7 @@
                         ?>
                     </table>
                 </div>
+                <br>
                 <p>Cantor College is at the heart of a passionate computing community, fostering student societies
                     devoted to games development, digital forensics, and programming.</p>
                 <p>Key Features:</p>

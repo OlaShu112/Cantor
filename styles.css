@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -187,7 +187,7 @@ body {
 
 footer {
     background-color: #3498db; /* Blue background color */
-    color: #fff; /* Text color */
+    color: black; /* Text color */
     padding: 20px; /* Adjust the padding as needed */
     text-align: center;
 }
@@ -336,15 +336,35 @@ input[type="submit"]:hover {
     animation: slideIn 0.3s ease-in-out;
 }
 
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
+@keyframes colorChange {
+    0%, 100% {
         opacity: 1;
-        transform: translateY(0);
+        color: rgba(255, 255, 255, 1); /* Fully opaque white */
     }
+    20%, 80% {
+        opacity: 1;
+        color: rgba(255, 0, 0, 1); /* Fully opaque red */
+    }
+    40%, 60% {
+        opacity: 1;
+        color: rgba(0, 0, 0, 1); /* Fully opaque black */
+    }
+}
+
+.color-changing-element {
+    will-change: transform;
+    /* or use a 3D transform */
+    transform: translateZ(0);
+    animation: colorChange 5s ease-in-out infinite;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+
+.color-changing-element.stay {
+    animation-play-state: paused;
+    /* Adjust delay based on your preference */
+    animation-delay: 10s; 
 }
 
 .menu a {
@@ -384,6 +404,11 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+.email-link {
+    color: red;
+    text-decoration: none;
 }
 
 ul.social-icons {

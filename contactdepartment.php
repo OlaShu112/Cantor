@@ -4,10 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     <script src="components/index.js"></script>
     <title>Cantor College - Contact a Department</title>
@@ -28,8 +26,8 @@
                 <div class="">
                 <table id="courses">
                     <tr>
-                        <th>Department Name</th>
-                        <th>Telephone number</th>
+                        <th scope="col">Department Name</th>
+                        <th scope="col">Telephone number</th>
                     </tr>
                     <!-- Add departments and their telephone numbers -->
                     <tr>
@@ -62,40 +60,40 @@
                     <tr>
                         <td>Additional Learning Support (ALS)</td>
                         <td>01226 216 769</td>
-                        <td><a href="mailto:als@cantorcollege.ac.uk">als@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:als@cantorcollege.ac.uk">als@cantorcollege.ac.uk</a></td>
                     </tr>
                     <tr>
                         <td>IT Helpdesk</td>
                         <td>01226 216 012</td>
-                        <td><a href="mailto:ithelpdesk@cantorcollege.ac.uk">ithelpdesk@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:ithelpdesk@cantorcollege.ac.uk">ithelpdesk@cantorcollege.ac.uk</a></td>
                     </tr>
                     <tr>
                         <td>Student Services Reception</td>
                         <td>01226 216 227</td>
-                        <td><a href="mailto:studentservices@cantorcollege.ac.uk">studentservices@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:studentservices@cantorcollege.ac.uk">studentservices@cantorcollege.ac.uk</a></td>
                     </tr>
                     <tr>
                         <td>Admissions</td>
                         <td>01226 216 106</td>
-                        <td><a href="mailto:info@cantorcollege.ac.uk">admissions@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:info@cantorcollege.ac.uk">admissions@cantorcollege.ac.uk</a></td>
                     </tr>
                     <tr>
                         <td>Engineering Department</td>
                         <td>01234 567 890</td>
-                        <td><a href="mailto:info@cantorcollege.ac.uk">engdept@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:info@cantorcollege.ac.uk">engdept@cantorcollege.ac.uk</a></td>
                     </tr>
                     <tr>
                         <td>Computer Science Department</td>
                         <td>01234 567 890</td>
-                        <td><a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></td>
+                        <td><a class="email-link" href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></td>
                     </tr>
                 </table>
 
                 <p>When contacting a department, please have the following information ready:</p>
-                <ul>
-                <div>Student’s full name and date of birth</div>
-                    Course you are enquiring about
-                </ul>
+                
+                Student’s full name and date of birth<br>
+                Course you are enquiring about
+                
                 <p>If you are emailing us but would like a telephone response, please remember to give us a contact number.</p>
             </div>
 

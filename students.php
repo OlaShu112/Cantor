@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
-    <script src="components/index.js"></script>
+    <script src="components/index.js" defer></script>
 
     <title>Cantor College - Students</title>
 </head>
@@ -15,13 +14,11 @@
 <body>
     <?php include 'components/header.php'; ?>
 
-
         <section id="students" class="hero">
             <div class="container">
                 <h2>Students</h2>
                 <p>Welcome, students of Cantor College! Here, you'll find valuable resources and information to support
                     your academic journey.</p>
-
             </div>
         </section>
 

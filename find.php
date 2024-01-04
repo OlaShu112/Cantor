@@ -4,7 +4,6 @@
 <head>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
     <script src="components/index.js"></script>

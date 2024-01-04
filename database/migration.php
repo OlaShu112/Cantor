@@ -2,11 +2,11 @@
 // Database connection parameters
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $database = "cantor";
 
 // Create connection
-$conn = new mysql($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, "", $database, 3307);
 
 // Check connection
 if ($conn->connect_error) {

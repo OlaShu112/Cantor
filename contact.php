@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css">
@@ -35,7 +34,7 @@
                 </ul>
                 <ul>
                     <p>Please use the form below to send us a message. Alternatively, you can email us directly at <a
-                            href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></p>
+                        class="email-link" href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></p>
                 </ul>
             </div>
         </section>

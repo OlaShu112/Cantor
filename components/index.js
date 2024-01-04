@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             interval = setInterval(toggleVisibility, 1000);
         }
     }, 10000)
-
+    
     document.querySelectorAll('nav ul li a:not(:only-child)').forEach(function (el) {
         el.addEventListener('click', function (e) {
             var dropdown = this.nextElementSibling;

@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 .flex-box{
     display:flex !important;
 }
@@ -35,3 +35,4 @@ footer a {
     width: 30px;
     height: 30px;
   }
+
