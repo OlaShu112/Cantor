@@ -21,7 +21,7 @@
             </div>
         </section>
             <div class="container">
-                      <!-- Curriculum Departments -->
+
                 <h3>Curriculum Departments</h3>
                 <div class="">
                 <table id="courses">
@@ -41,14 +41,10 @@
                     <!-- More departments can be added as needed -->
                 </table>
             </div>
-                <!-- Apprenticeships -->
                 <h3>Apprenticeships</h3>
                 <p>For general enquiries: 01226 216 123</p>
                 <p>Construction and Engineering Apprentices: 0779512XXXX</p>
-                <!-- More apprenticeship contacts can be added as needed -->
-                <!-- Curriculum Departments (continued) as needed-->
-                <!-- More departments can be added as needed -->
-                <!-- Support Departments -->
+
                 <h3>Support Departments</h3>
                 <table  id="courses">
                     <tr>

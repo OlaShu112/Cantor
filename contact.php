@@ -27,8 +27,7 @@
                 <p>Let us get you to the right place. Canton College is one of the UK’s biggest educational institutions
                     spread over several campuses. You can use the button below to view the contact details of College
                     departments.</p>
-                   
-                <!-- College Departments Links -->
+
                 <ul>
                     <a href="contactdepartment.php" class="button" style="background-color: #3498db;">Contact a Department</a></li>
                 </ul>

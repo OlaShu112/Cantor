@@ -89,7 +89,7 @@
                 </ol>
             </div>
         </section>
-        <!-- Other sections go here -->
+        <!-- Other sections can go here -->
     </main>
 
     <?php include 'components/footer.php'; ?>

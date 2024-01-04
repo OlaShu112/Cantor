@@ -40,8 +40,16 @@
             <h2>Featured Programs</h2>
             <p>Discover the pinnacle of academic excellence and state-of-the art facilities at Cantor College</p>
         </div>
+        <div class="tabs">
+        <button class="tab-btn" data-tab="global-leadership">Global Leadership MBA</button>
+        <button class="tab-btn" data-tab="innovation-technology">Bachelor of Innovation in Technology</button>
+        <button class="tab-btn" data-tab="communication-media-arts">Communication and Media Arts</button>
+        </div>
     </section>
-    <section id="content-sections">
+        <div id="global-leadership" class="tab-content">
+        </div>
+    
+    <section id="content-section">
         <div class="container">
             <div class="flex-box">
                 <div class="description">
@@ -49,58 +57,58 @@
                     <span>Elevate your leadership prowess with our Global Leadership MBA. Immerse yourself in a diverse
                         learning environment and shape your global perspective for impactful business leadership.</span>
                     <a href="#" class="view-details-button">Explore Leadership</a>
-                </div>
+                    </div>
                 <picture>
                     <source srcset="assets/bsit1.webp" type="image/webp">
                     <img width="100%" height="100%" src="assets/bsit1.webp" alt="Global Leadership MBA Program Image">
-                </picture>
+                </picture> 
 
             </div>
         </div>
-    </section>
-    <section id="innovation-technology">
-        <div class="container">
-            <div class="flex-box">
-                <picture>
+        <section id="innovation-technology" class="tab-content">
+    <div class="container">
+        <div class="flex-box">
+            <picture>
                 <source srcset="assets/bsit.webp" type="image/webp">
-                <img width="100%" height="100% src="assets/bsit.webp" alt="Bachelor of Innovation in Technology Program Image">
-                </picture>
-                <div class="description">
-                    <h3>Bachelor of Innovation in Technology</h3>
-                    <span>Embark on a creative journey in the ever-evolving world of technology. Our program
-                        empowers
-                        you with
-                        skills in innovation, software development, and emerging technologies.</span>
-                    <a href="#" class="view-details-button">Discover More</a>
-                </div>
+                <img width="100%" height="100%" src="assets/bsit.webp" alt="Bachelor of Innovation in Technology Program Image">
+            </picture>
+            <div class="description">
+                <h3>Bachelor of Innovation in Technology</h3>
+                <span>Embark on a creative journey in the ever-evolving world of technology. Our program empowers you with
+                    skills in innovation, software development, and emerging technologies.</span>
+                <a href="#" class="view-details-button">Discover More</a>
             </div>
         </div>
-    </section>
-    <section id="media-arts">
-        <div class="container">
-            <div class="flex-box">
-                <div class="description">
-                    <h3>Communication and Media Arts</h3>
-                    <span>Sharpen your communication skills and explore the dynamic realms of media and public
-                        relations. Our
-                        program opens doors to a spectrum of creative career opportunities.</span>
-                    <a href="#" class="view-details-button">Communicate Effectively</a>
-                </div>
-                <picture>
-                <img width="100%" height="100%" srcset="assets/media1.webp" 
-                    src="assets/media1.webp" alt="Communication and Media Arts Program Image">
-                </picture>  
+    </div>
+</section>
+
+<section id="communication-media-arts" class="tab-content">
+    <div class="container">
+        <div class="flex-box">
+            <div class="description">
+                <h3>Communication and Media Arts</h3>
+                <span>Sharpen your communication skills and explore the dynamic realms of media and public relations. Our
+                    program opens doors to a spectrum of creative career opportunities.</span>
+                <a href="#" class="view-details-button">Communicate Effectively</a>
             </div>
+            <picture>
+                <source srcset="assets/bsit.webp" type="image/webp">
+                <img width="100%" height="100%" src="assets/media1.webp" alt="Communication and Media Arts Program Image">
+            </picture>
         </div>
-    </section>
+    </div>
+</section>
+    
+<section id="content-section">
+    <div class="container">
     <section id="philosophy" class="hero animated-element">
         <div class="container color-changing-element">
             <h2>Our Philosophy</h2>
         </div>
     </section>
     <section class="content-sections">
-        <div class="container">
-            <h1>Our Philosophy</h1>
+        
+            <h2>Our Philosophy</h2>
             <p>We’re a creative university. We get excited about change, difference, and the possibilities they open
                 up. From the arts to business to technology, we’re all about shaping the future of creativity, and
                 teaching you how to find opportunities that speak to you - at university and beyond.</p>

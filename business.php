@@ -23,7 +23,7 @@
                 
                 <p>Applying the proverb "It never rains but it pours" not only to our mindshare but also to our aptitude to incubate, we explore the true meaning of "B2B." Understanding that metrics for iteration gain deeper understanding when tangible rather than virtual, we enable the aptitude of initiatives to visualize.</p>
                 
-                <p>The ability to matrix proactively leads to the capability to generate robustly. Our technology seamlessly integrates the best aspects of <a class="email-link" href="https://www.w3.org/Style/XSL/">XSL</a> and <a class="email-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML">Dynamic HTML</a>, as well as the strengths of <a class="email-link" href="https://www.adobe.com/content/dam/acom/en/devnet/actionscript/pdfs/actionscript_cheat_sheet_07.pdf">ActionScript</a> and <a class="email-link" href="https://www.python.org/">Python</a>.</p>
+                <p>The ability to matrix proactively leads to the capability to generate robustly. Our technology seamlessly integrates the best aspects of <a class="email-link" href="https://www.w3.org/Style/XSL/">XSL</a> and <a class="email-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML">Dynamic HTML</a>, as well as the strengths of <a span href="https://www.adobe.com/content/dam/acom/en/devnet/actionscript/pdfs/actionscript_cheat_sheet_07.pdf">ActionScript</a> and <a class="email-link" href="https://www.python.org/">Python</a>.</p>
 
                 <p>Architecting proactively, the re-sizing factor is encapsulated in one word: <a class="email-link" href="https://www.usability.gov/how-to-and-tools/methods/developing-a-content-matrix.html">client-focused</a>. The enterprise-level architecture factor is ingrained in our processes, optimizing the jargon-based term "<a class="email-link" href="https://www.merriam-webster.com/dictionary/world-class">world-class</a>." Metrics for R&D gain a deeper perspective when they go beyond being <a class="email-link" href="https://www.sciencedirect.com/science/article/pii/S0048733312002563">client-focused</a>.</p>
                 
@@ -32,7 +32,7 @@
                 <p>Quick question: Do you have a <a class="email-link" href="https://www.businessnewsdaily.com/6562-business-growth-strategies.html">world-class game plan</a> for handling emerging initiatives? Our technology amalgamates the best aspects of <a class="email-link" href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> and <a class="email-link" href="https://www.w3.org/Graphics/SVG/">SVG</a>.</p>
             </div>
         </section>
-        <!-- Other sections go here -->
+        <!-- Other sections can go here -->
     </main>
 
     <?php include 'components/footer.php';?>

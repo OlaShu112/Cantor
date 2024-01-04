@@ -41,7 +41,7 @@ h1 {
 }
 
 .grey-background {
-    background-color: #fff; /* Can use any desired shade of grey */
+    background-color: #fff;
 }
 
 img {
@@ -118,6 +118,7 @@ a:hover {
     color: #776b61;
     background-color: transparent;
 }
+
 
 main {
     background-color: #ccc;

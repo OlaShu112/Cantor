@@ -4,7 +4,7 @@ body, h1, h2, p, ul {
     padding: 0;
     box-sizing: border-box;
 }
-/* Apply a background color to the body */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
@@ -14,9 +14,9 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Set a maximum width for the main content */
-    margin: 0 auto; /* Center the container */
-    padding: 20px; /* Add padding for better spacing */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
 }
 
 .course-table {
@@ -62,24 +62,45 @@ body {
     text-decoration: none!important;
 }
 
-
-/* Main content styling */
 main {
-    background-color: #ccc; /* White background color for the main content */
-    padding: 20px;
-    border-radius: 8px; /* Add a slight border radius for a cleaner look */
+    background-color: #ccc; 
+    border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#registrationprocedures {
-    background-color: #fff; /* Replace #fff with your desired background color for this section */
-    /* Add specific styles for the #registrationprocedures section if needed */
+
+
+section#registrationprocedures {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Hero section styling */
+.tab-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.active {
+    border-color: #0056b3;
+    background-color: #0056b3;
+}
+
 .hero {
     text-align: center;
     padding: 40px 0;
-    background-color: #3498db; /* Hero section background color */
+    background-color: #3498db; 
     color: #fff;
 }
 
@@ -91,7 +112,6 @@ main {
     font-size: 1.2em;
 }
 
-/* Content section styling */
 .content-section {
     margin-top: 40px;
 }
@@ -107,7 +127,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* Button styling */
 button {
     background-color: #3498db;
     color: #fff;
@@ -124,7 +143,7 @@ button:hover {
 
 
 #contact {
-    background-color: #f9f9f9; /* Light gray background */
+    background-color: #f9f9f9; 
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -158,7 +177,7 @@ button:hover {
 }
 
 #contact button {
-    background-color: #3498db; /* Blue button color */
+    background-color: #3498db; 
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -169,7 +188,7 @@ button:hover {
 }
 
 #contact button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #2980b9; 
 }
 
 .modal-content {
@@ -190,9 +209,9 @@ body {
 
 
 footer {
-    background-color: #3498db; /* Blue background color */
-    color: black; /* Text color */
-    padding: 20px; /* Adjust the padding as needed */
+    background-color: #3498db; 
+    color: black; 
+    padding: 20px; 
     text-align: center;
 }
 
@@ -215,7 +234,6 @@ h1 {
     color: #0077cc;
 }
 
-
 .footer-logos {
     display: flex;
     justify-content: space-around;
@@ -228,9 +246,9 @@ h1 {
     height: auto;
     margin-right: 10px;
 }
-/* Add this style to your existing CSS */
+
 .grey-background {
-    background-color: #ccc; /* Use the desired shade of grey */
+    background-color: grey; 
 }
 img {
     max-width: 100%;
@@ -238,8 +256,8 @@ img {
 }
 
 header {
-    background-color: #0077cc; /* Dark gray header background */
-    color: #fff; /* White text */
+    background-color: #0077cc; 
+    color: #fff; 
     padding: 15px 0;
     text-align: center;
 }
@@ -254,16 +272,16 @@ main {
 }
 
 .content-section {
-    background-color: #fff; /* White background for content sections */
+    background-color: #fff; 
     padding: 20px;
-    margin-bottom: 20px; /* Space between content sections */
+    margin-bottom: 20px; 
     border-radius: 2px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow for sections */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
 }
 
 .button {
-    background-color: #194bc1; /* Red background for buttons */
-    color: #fff; /* White text */
+    background-color: #194bc1; 
+    color: #fff;
     padding: 10px 15px;
     text-decoration: none;
     display: inline-block;
@@ -273,8 +291,9 @@ main {
 button:hover {
     background-color: #2980b9;
 }
-
-
+span.red-text {
+    color: red;
+}
 
 form {
     max-width: 400px;
@@ -310,25 +329,23 @@ input[type="submit"]:hover {
 }
 
 .button {
-    /* Red background for buttons */
-    color: #fff; /* White text */
+    color: #fff; 
     padding: 10px 15px;
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
-    font-weight: bold; /* Bold text for the button */
-    transition: color 0.3s; /* Smooth transition for color change */
+    font-weight: bold; 
+    transition: color 0.3s; 
 }
 
 .button.clicked {
-    color: #005faa; /* Change text color to blue when clicked */
+    color: #005faa; 
 }
 .error {
     color: #ff0000;
     margin-top: 5px;
 }
 
-/* Add styles for animated menu */
 .menu {
     display: none;
     position: absolute;
@@ -343,21 +360,20 @@ input[type="submit"]:hover {
 @keyframes colorChange {
     0%, 100% {
         opacity: 1;
-        color: rgba(255, 255, 255, 1); /* Fully opaque white */
+        color: rgba(255, 255, 255, 1); 
     }
     20%, 80% {
         opacity: 1;
-        color: rgba(255, 0, 0, 1); /* Fully opaque red */
+        color: rgba(255, 0, 0, 1); 
     }
     40%, 60% {
         opacity: 1;
-        color: rgba(0, 0, 0, 1); /* Fully opaque black */
+        color: rgba(0, 0, 0, 1); 
     }
 }
 
 .color-changing-element {
     will-change: transform;
-    /* or use a 3D transform */
     transform: translateZ(0);
     animation: colorChange 5s ease-in-out infinite;
     animation-fill-mode: both;
@@ -367,7 +383,6 @@ input[type="submit"]:hover {
 
 .color-changing-element.stay {
     animation-play-state: paused;
-    /* Adjust delay based on your preference */
     animation-delay: 10s; 
 }
 
@@ -465,9 +480,6 @@ ul.social-icons li img:hover[alt] {
 p {
     font-weight: bold;
 }
-
-
-/*  carousel */
 
 .carousel {
     position: relative;
@@ -574,9 +586,6 @@ ul.foot-menu  li img:hover {
     opacity: 0;
 }
 
-/* code for navigation bar */
-
-
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -587,7 +596,6 @@ html{
 
 .brand {
     position: absolute;
-    /* padding-left: 20px; */
     float: left;
     line-height: 70px;
     text-transform: uppercase;
@@ -623,8 +631,7 @@ nav ul li {
 }
 nav ul li a {
     font-weight: bold;
-    padding: 0 5px; /* Adjust the padding */
-    /* line-height: 120px; */
+    padding: 0 5px; 
     color: black;
     text-decoration: none;
 }
@@ -649,7 +656,7 @@ nav a:not(:only-child):after {
     padding-left: 4px;
 }
 
-nav ul li ul li {    /* Dropdown list */
+nav ul li ul li {    
     min-width: 190px;
 }
 
@@ -663,11 +670,11 @@ nav ul li ul li a {
     z-index: 1;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
     background: white !important;
-    top: 52px; /* Position below the main menu item */
+    top: 52px; 
     left: 0; 
 }
 
-.nav-mobile {       /* Mobile navigation */
+.nav-mobile {       
     display: none;
     position: absolute;
     top: 0;
@@ -679,7 +686,6 @@ nav ul li ul li a {
 
 @media only screen and (max-width: 1222px) {
 
-    /* Hamburger nav visible on mobile only */
     .nav-mobile {
         display: block;
     }
@@ -709,7 +715,7 @@ nav ul li ul li a {
         color: black;
         text-decoration: none;
         font-weight: bold;
-        display: block; /* Make the entire area clickable */
+        display: block; 
     }
 
 
